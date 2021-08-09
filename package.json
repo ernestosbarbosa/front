@@ -12,9 +12,7 @@
     "react-dom": "^16.13.1",
     "react-icons": "^4.1.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
-  },
-  "devDependencies": {
+    "react-scripts": "3.4.3",
     "@pact-foundation/pact": "^9.15.5",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
