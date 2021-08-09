@@ -35,7 +35,7 @@ class CardList extends React.Component {
     };
 
     axios
-      .get('https://serverest.dev/produtos', config)
+      .get('https://serverest-api.herokuapp.com/produtos', config)
       .then((response) => {
         const produtos = response.data;
         this.setState({ products: produtos.produtos });
