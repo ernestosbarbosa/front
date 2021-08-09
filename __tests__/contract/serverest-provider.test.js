@@ -2,7 +2,7 @@
 const axios = require('axios');
 const { Matchers, Pact } = require('@pact-foundation/pact');
 
-const port = 3001;
+const port = process.env.PORT || 3001;
 const rotaLocalhost = `http://localhost:${port}`;
 const mockProvider = new Pact({
   port,
